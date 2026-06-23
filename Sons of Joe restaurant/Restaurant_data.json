@@ -1,0 +1,195 @@
+[
+   {
+      "Food": "Margarita Pizza",
+      "Food price": "$8",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$10.5"
+   },
+   {
+      "Food": "Chicken burger",
+      "Food price": "$3",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$5.5"
+   },
+   {
+      "Food": "Molokhia",
+      "Food price": "$4",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$4"
+   },
+   {
+      "Food": "Tacos",
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Tacos",
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Tacos",
+      "Delivery": false,
+      "Delivery fee": 0,
+      "Food price": "$6",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$4.5"
+   },
+   {
+      "Food": "Tacos",
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Sardine fish",
+      "Food price": "$4",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$4"
+   },
+   {
+      "Food": "Chicken burger",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$3",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$7.5"
+   },
+   {
+      "Food": "Sardine fish",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$4",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Koshary",
+      "Delivery": true,
+      "Delivery_fee": "$2",
+      "Food price": "$2",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$4"
+   },
+   {
+      "Food": "Fava beans",
+      "Delivery": true,
+      "Delivery_fee": "$2",
+      "Food price": "$10",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$14.5"
+   },
+   {
+      "Food": "Greek salad",
+      "Delivery": true,
+      "Delivery_fee": "$2",
+      "Food price": "$10",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$12"
+   },
+   {
+      "Food": "Pepperoni pizza",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$10",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$10"
+   },
+   {
+      "Food": "Cheese burger",
+      "Delivery": true,
+      "Delivery_fee": "$2",
+      "Food price": "$3",
+      "Extra": "Bottle of Water",
+      "Extra price": "$3",
+      "Total Price": "$8"
+   },
+   {
+      "Food": "Tacos",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Tacos",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Tacos",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Tacos",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Tacos",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$6",
+      "Extra": "null",
+      "Extra price": "null",
+      "Total Price": "$6"
+   },
+   {
+      "Food": "Molokhia",
+      "Delivery": false,
+      "Delivery_fee": 0,
+      "Food price": "$4",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$6.5"
+   },
+   {
+      "Food": "Greek salad",
+      "Delivery": true,
+      "Delivery_fee": "$2",
+      "Food price": "$10",
+      "Extra": "Cola",
+      "Extra price": "$2.5",
+      "Total Price": "$14.5"
+   },
+   {
+      "Food": "Chicken burger",
+      "Delivery": true,
+      "Delivery_fee": "$2",
+      "Food price": "$3",
+      "Extra": "French fries",
+      "Extra price": "$3",
+      "Total Price": "$8"
+   }
+]
