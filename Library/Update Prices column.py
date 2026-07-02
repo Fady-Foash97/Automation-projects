@@ -1,0 +1,78 @@
+import sqlite3 
+
+conn = sqlite3.connect("D:\Programming\python\Automation\Library\Library program.db")
+cursor = conn.cursor()
+
+cursor.executemany("""
+        UPDATE Books
+        SET Prices = ?
+        WHERE Book_name = ?
+        """, [
+            (18.99, "The Hobbit"),
+    (29.99, "The Lord of the Rings"),
+    (16.99, "Harry Potter and the Philosopher's Stone"),
+    (17.99, "Harry Potter and the Chamber of Secrets"),
+    (21.99, "Dune"),
+    (11.99, "The Time Machine"),
+    (19.99, "The Cairo Trilogy"),
+    (18.99, "Angels & Demons"),
+    (14.99, "The Alchemist"),
+    (13.99, "1984"),
+    (10.99, "Animal Farm"),
+    (12.99, "The Little Prince"),
+    (11.99, "Treasure Island"),
+    (10.99, "The Adventures of Tom Sawyer"),
+    (11.99, "The Adventures of Huckleberry Finn"),
+    (12.99, "A Study in Scarlet"),
+    (13.99, "The Hound of the Baskervilles"),
+    (14.99, "Dracula"),
+    (17.99, "The Harafish"),
+    (12.99, "Frankenstein"),
+    (19.99, "The Count of Monte Cristo"),
+    (18.99, "The Three Musketeers"),
+    (15.99, "Moby-Dick"),
+    (24.99, "Journey to the West"),
+    (15.99, "The Iliad"),
+    (15.99, "The Odyssey"),
+    (9.99, "Hamlet"),
+    (9.99, "Macbeth"),
+    (22.99, "Don Quixote"),
+    (24.99, "Les Misérables"),
+    (26.99, "War and Peace"),
+    (18.99, "Crime and Punishment"),
+    (13.99, "Around the World in Eighty Days"),
+    (17.99, "The Prestige"),
+    (18.99, "Atomic Habits"),
+    (17.99, "The 7 Habits of Highly Effective People"),
+    (15.99, "Think and Grow Rich"),
+    (16.99, "How to Win Friends and Influence People"),
+    (18.99, "The Power of Habit"),
+    (19.99, "Deep Work"),
+    (17.99, "The Subtle Art of Not Giving a F*ck"),
+    (18.99, "Can't Hurt Me"),
+    (16.99, "Rich Dad Poor Dad"),
+    (20.99, "The 48 Laws of Power"),
+    (18.99, "Awaken the Giant Within"),
+    (17.99, "Mindset"),
+    (15.99, "The Magic of Thinking Big"),
+    (18.99, "The One Thing"),
+    (22.99, "SPQR"),
+    (24.99, "The Rise and Fall of Ancient Egypt"),
+    (19.99, "Rubicon"),
+    (18.99, "The Guns of August"),
+    (29.99, "The Second World War"),
+    (24.99, "Stalingrad"),
+    (27.99, "The Rise and Fall of the Third Reich"),
+    (23.99, "The Silk Roads"),
+    (21.99, "Genghis Khan and the Making of the Modern World"),
+    (22.99, "Team of Rivals"),
+    (18.99, "1776"),
+    (23.99, "The Crusades"),
+    (19.99, "The Cold War"),
+    (24.99, "Einstein: His Life and Universe"),
+    (22.99, "The Age of Wonder"),
+    (25.99, "The Making of the Atomic Bomb"),
+    (18.99, "The Wright Brothers") 
+        ])
+conn.commit()
+conn.close()
